@@ -1,0 +1,16 @@
+<article class="card" [style.borderTopColor]="leader.themeColor">
+  <h3 class="name" [style.color]="leader.themeColor">{{ leader.name }}</h3>
+
+  <p><strong>Age:</strong> {{ leader.age }}</p>
+  <p><strong>Location:</strong> {{ leader.location }}</p>
+  <p><strong>Team:</strong> {{ leader.team }}</p>
+  <p><strong>Badge:</strong> <span [style.color]="leader.themeColor">{{ leader.badge }}</span></p>
+
+  <button type="button" class="btn" [style.background]="leader.themeColor" (click)="onClick()">
+    {{ isOpen ? 'Hide Monologue' : 'Monologue' }}
+  </button>
+
+  @if (isOpen) {
+    <p class="monologue" [style.borderLeftColor]="leader.themeColor">"{{ leader.monologue }}"</p>
+  }
+</article>

@@ -1,0 +1,65 @@
+:host {
+  display: block;
+  background: #eef1f6;
+  min-height: 100vh;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  color: #2c3340;
+}
+
+.page {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 44px 24px 60px;
+}
+
+.masthead {
+  margin-bottom: 42px;
+  padding-bottom: 22px;
+  border-bottom: 2px solid #d5dae3;
+}
+
+.title {
+  margin: 0;
+  font-size: 2.6rem;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  margin: 8px 0 0;
+  color: #6b7280;
+  font-size: 1.02rem;
+  max-width: 60ch;
+}
+
+.footer {
+  margin-top: 20px;
+  padding-top: 18px;
+  border-top: 1px solid #d5dae3;
+  color: #8b93a1;
+  font-size: 0.85rem;
+}
+
+.navbar {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  background: #222;
+  border-radius: 8px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+
+.navbar a:hover {
+  background: #444;
+}
+
+.navbar a.active {
+  background: #e53935;
+  font-weight: bold;
+}

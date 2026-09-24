@@ -1,0 +1,15 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.region-card {
+    padding: 1rem;
+    border-radius: 8px;
+    background: #f5f5f5;
+    border-left: 6px solid #999;
+}
+
+.region-card.kanto { border-left-color: #e53935}
+.region-card.johto { border-left-color: #1e88e5}
