@@ -9,12 +9,17 @@
     <a [routerLink]="['/home']" routerLinkActive="active">Home</a>
     <a [routerLink]="['/kanto']" routerLinkActive="active">Kanto Region</a>
     <a [routerLink]="['/johto']" routerLinkActive="active">Johto Region</a>
+    <a [routerLink]="['/hoenn']" routerLinkActive="active">Hoenn Region</a>
   </nav>
 
   <router-outlet />
 
+  <section class="registry-section">
+    <app-trainer-display />
+  </section>
+
   <footer class="footer">
-    Laboratory Activity 5 &mdash; Angular Routing and Navigation
+    Worksheet 5 &mdash; Advanced Angular Services
   </footer>
 
 </main>

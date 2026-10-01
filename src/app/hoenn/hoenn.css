@@ -1,0 +1,27 @@
+.region {
+  margin-bottom: 56px;
+}
+
+.region-head {
+  border-left: 8px solid #999;
+  padding: 2px 0 2px 16px;
+  margin-bottom: 22px;
+}
+
+.region-title {
+  margin: 0;
+  font-size: 1.9rem;
+  letter-spacing: -0.01em;
+}
+
+.region-sub {
+  margin: 4px 0 0;
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 18px;
+}

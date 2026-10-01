@@ -1,6 +1,9 @@
 <article class="card" [style.borderTopColor]="leader.themeColor">
   <h3 class="name" [style.color]="leader.themeColor">{{ leader.name }}</h3>
 
+  @if (leader.specialty) {
+    <p><strong>Specialty:</strong> {{ leader.specialty }}</p>
+  }
   <p><strong>Age:</strong> {{ leader.age }}</p>
   <p><strong>Location:</strong> {{ leader.location }}</p>
   <p><strong>Team:</strong> {{ leader.team }}</p>

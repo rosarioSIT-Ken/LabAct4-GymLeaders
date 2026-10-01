@@ -6,4 +6,5 @@ export interface GymLeader {
   badge: string;
   monologue: string;
   themeColor: string;
+  specialty?: string;
 }

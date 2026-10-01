@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
   templateUrl: './home.html',
 })
 export class Home {
-  pageTitle: string = 'The Regions of Kanto and Johto';
+  pageTitle: string = 'The Regions of Kanto, Johto, and Hoenn';
 }
 

@@ -1,0 +1,15 @@
+<section class="region">
+  <header class="region-head" [style.borderLeftColor]="regionColor()">
+    <h2 class="region-title" [style.color]="regionColor()">{{ regionName() }}</h2>
+    <p class="region-sub">{{ leaders().length }} official gyms</p>
+  </header>
+
+  <div class="grid">
+    @for (leader of leaders(); track leader.name) {
+      <app-leader-info
+        [leader]="leader"
+        [isOpen]="openLeader() === leader.name"
+        (monologueClicked)="toggleMonologue($event)" />
+    }
+  </div>
+</section>
